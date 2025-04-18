@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clínica Bem Viver</title>
+  </head>
+  <body>
+    <header class="cabecalho" id="home">
+      <section class="cabecalho__topo">
+        <a href="#"
+          ><img
+            src="./images/logo.png"
+            alt="Logo Bem Viver"
+            class="cabecalho__logo"
+        /></a>
+
+        <nav class="nav">
+          <ul class="nav__lista">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Serviços</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#doctors" class="nav__link">Doutores</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="cabecalho__baixo">
+        <div class="cabecalho__texto">
+          <h1 class="cabecalho__titulo">
+            Seus familiares são <br />
+            importantes para nós
+          </h1>
+
+          <p class="cabecalho__paragrafo">
+            Saúde e Bem-Estar para Você e sua Família <br />
+            Cuidamos da sua saúde com atendimento humanizado <br />
+            e profissionais especializados.
+          </p>
+        </div>
+
+        <img src="./images/medica.png" alt="" class="cabecalho__imagem" />
+      </section>
+    </header>
+
+    <main>
+      <section class="services" id="services">
+        <h2 class="services__tittle">Nossos Serviços</h2>
+
+        <div class="services__cards">
+          <div class="card">
+            <img src="./images/ambulancia.jpeg" alt="" class="card__image" />
+
+            <div class="card__text">
+              <h3 class="card__tittle">Serviço de Ambulância</h3>
+              <p class="card__description">
+                Atendimento rápido e seguro com equipes treinadas e veículos
+                equipados para emergências 24 horas por dia.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/radiologia.jpeg" alt="" class="card__image" />
+
+            <div class="card__text">
+              <h3 class="card__tittle">Radiologia</h3>
+              <p class="card__description">
+                Exames de imagem com tecnologia de ponta e precisão diagnóstica,
+                realizados por profissionais especializados.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/cirurgia.jpeg" alt="" class="card__image" />
+
+            <div class="card__text">
+              <h3 class="card__tittle">Operações Cirúrgicas</h3>
+              <p class="card__description">
+                Procedimentos cirúrgicos com alta qualidade técnica, segurança e
+                cuidado humanizado em todas as etapas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="doctors" id="doctors">
+        <h2 class="doctors__tittle">Nossos Doutores</h2>
+
+        <div class="doctors__box">
+          <div class="doctors__card">
+            <div class="doctors__top">
+              <img src="./images/dr-joao.png" alt="" class="doctors__image" />
+            </div>
+
+            <h3 class="doctors__name">Dr. João Silva</h3>
+            <p class="doctors__role">Clínico Geral</p>
+          </div>
+
+          <div class="doctors__card">
+            <div class="doctors__top">
+              <img src="./images/dra-ana.png" alt="" class="doctors__image" />
+            </div>
+
+            <h3 class="doctors__name">Dra. Ana Martins</h3>
+            <p class="doctors__role">Cardiologista</p>
+          </div>
+
+          <div class="doctors__card">
+            <div class="doctors__top">
+              <img src="./images/dr-pedro.png" alt="" class="doctors__image" />
+            </div>
+
+            <h3 class="doctors__name">Dr. Pedro Cost</h3>
+            <p class="doctors__role">Ortopedista</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="contact__tittle">Saiba Mais</h2>
+
+        <form class="contact__form">
+          <div class="contact__lines contact__name">
+            <label for="name" class="contact__label">Nome:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              class="contact__input"
+            />
+          </div>
+
+          <div class="contact__lines contact__email">
+            <label for="email" class="contact__label">E-mail:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              required
+              class="contact__input"
+            />
+          </div>
+
+          <div class="contact__lines contact__city">
+            <label for="city" class="contact__label">Cidade:</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              required
+              class="contact__input"
+            />
+          </div>
+
+          <div class="contact__lines contact__state">
+            <label for="state" class="contact__label">Estado:</label>
+            <input
+              type="text"
+              id="state"
+              name="state"
+              required
+              class="contact__input"
+            />
+          </div>
+
+          <button type="submit" class="contact__button">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2025 Bem Viver - Clínica Médica. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
