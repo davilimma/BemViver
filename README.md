@@ -39,11 +39,15 @@ O projeto é composto por:
 ## 📎 Como Usar
 
 1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
+2. git clone https://github.com/seu-usuario/nome-do-repo.git
+
 Abra o index.html em seu navegador.
 
 Pronto! Explore o site e edite conforme necessário.
 
 https://davilimma.github.io/BemViver/
+
+
+
+
 
