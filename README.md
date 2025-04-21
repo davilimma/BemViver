@@ -1,6 +1,6 @@
 # 🏥 Bem Viver - Clínica Médica
 
-**Bem Viver** é um projeto de página web para uma clínica médica, desenvolvido com foco em acessibilidade, responsividade e design moderno. O site apresenta informações sobre a clínica, especialidades médicas, formulário de contato e outros serviços.
+**Bem Viver** é um projeto de página web para uma clínica médica, desenvolvido com foco em acessibilidade e design moderno. O site apresenta informações sobre a clínica, especialidades médicas, formulário de contato e outros serviços.
 
 ## 🔍 Visão Geral
 
